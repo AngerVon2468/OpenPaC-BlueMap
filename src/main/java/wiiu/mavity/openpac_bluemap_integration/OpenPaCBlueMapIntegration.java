@@ -247,7 +247,7 @@ public class OpenPaCBlueMapIntegration {
                             name += "'s claim";
                         }
                     } else {
-                        idName = name;
+                        idName = name + " - " + playerClaimInfo.getPlayerUsername();
                     }
                     final String displayName = name;
                     playerClaimInfo.getStream().forEach(entry -> {
